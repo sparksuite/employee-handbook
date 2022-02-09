@@ -18,7 +18,7 @@ body {
 /* Custom page header */
 .header {
 	padding-bottom: 1rem;
-	border-bottom: .05rem solid #e5e5e5;
+	border-bottom: 0.05rem solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -32,7 +32,7 @@ body {
 .footer {
 	padding-top: 1.5rem;
 	color: #777;
-	border-top: .05rem solid #e5e5e5;
+	border-top: 0.05rem solid #e5e5e5;
 }
 
 /* Customize container */
@@ -71,14 +71,14 @@ body {
 	}
 }
 
-
 /* OUR CUSTOM CSS BELOW */
 
 a {
 	color: #77a635;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
 	color: #5f852a;
 }
 
