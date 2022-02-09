@@ -1,118 +1,23 @@
 /* Bootstrap */
-@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
 
-/* Space out content a bit */
-body {
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+/* Keep containers relatively narrow on large screens */
+.container {
+	max-width: 46rem;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.categories,
-.footer {
-	padding-right: 1rem;
-	padding-left: 1rem;
+/* Prevent hello from being tied to view width */
+.container div.bg-light h1.display-3 {
+	font-size: 4rem;
 }
 
-/* Custom page header */
-.header {
-	padding-bottom: 1rem;
-	border-bottom: 0.05rem solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: 3rem;
-}
-
-/* Custom page footer */
-.footer {
-	padding-top: 1.5rem;
-	color: #777;
-	border-top: 0.05rem solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 48em) {
-	.container {
-		max-width: 46rem;
-	}
-}
-.container-narrow > hr {
-	margin: 2rem 0;
-}
-
-/* Main message and sign up button */
-.jumbotron {
-	text-align: center;
-	border-bottom: 0;
-	margin-top: 30px;
-}
-
-/* Supporting categories */
-.categories {
-	margin: 3rem 0;
-}
-.categories p + h4 {
-	margin-top: 1.5rem;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
-	/* Remove the padding we set earlier */
-	.header,
-	.categories,
-	.footer {
-		padding-right: 0;
-		padding-left: 0;
-	}
-}
-
-/* OUR CUSTOM CSS BELOW */
-
+/* Custom link color */
 a {
 	color: #77a635;
+	text-decoration: none;
 }
 
 a:focus,
 a:hover {
 	color: #5f852a;
-}
-
-a.back_to_home {
-	display: block;
-	margin: 15px 0 25px;
-}
-
-blockquote {
-	margin: 0 0 1rem 1em;
-	padding: 1em;
-	background: #eee;
-	border-left: 3px solid #ccc;
-}
-
-.jumbotron h1 {
-	margin-bottom: 40px;
-}
-
-.jumbotron .lead {
-	text-align: left;
-}
-
-.jumbotron .lead img {
-	width: 100%;
-	max-width: 200px;
-}
-
-.categories h2 {
-	margin: 20px 0;
-	padding-bottom: 5px;
-	border-bottom: 2px solid #ddd;
-}
-
-.content h5 {
-	margin-top: 1.8rem;
 }

@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86405958-2');
+		</script>
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="icon" href="../images/favicon.png" />
 
 		<title>Drugs, Alcohol, and Weapons - Employee Handbook</title>
 
-		<!-- Custom styles for this template -->
 		<link href="../css/main.css" rel="stylesheet" />
+		<script src="../components/footer.js" type="text/javascript" defer></script>
 	</head>
 
-	<body>
-		<div class="container">
-			<div class="header clearfix">
-				<h3 class="text-muted">Employee Handbook</h3>
-			</div>
+	<body class="py-4">
+		<header class="container">
+			<h3 class="text-muted mb-2">Sparksuite’s Employee Handbook</h3>
+		</header>
 
-			<div class="row content">
-				<div class="col-lg-12">
-					<a href="../index.html" class="back_to_home">&larr; Back to home</a>
+		<main class="container">
+			<div class="row">
+				<div class="col">
+					<a href="../index.html" class="d-block pb-4">&larr; Back to home</a>
 
-					<h2>Drugs, alcohol, and weapons</h2>
+					<h2 class="display-6">Drugs, alcohol, and weapons</h2>
 
 					<p>
 						Our policies regarding drugs, alcohol, and weapons are designed to promote a safe and productive work
@@ -34,13 +45,13 @@
 						immediate termination and law enforcement intervention.
 					</p>
 
-					<h5>Drugs</h5>
+					<h5 class="pt-2">Drugs</h5>
 
 					<p>
 						Under no circumstances may an employee use, buy, sell, or distribute illegal drugs, whether at work or not.
 					</p>
 
-					<h5>Alcohol</h5>
+					<h5 class="pt-2">Alcohol</h5>
 
 					<p>
 						Alcoholic beverages may be allowed in the office for select occasions; in which case, team members are
@@ -48,7 +59,7 @@
 						indicated by a team member with authority to make exceptions to this policy.
 					</p>
 
-					<h5>Weapons</h5>
+					<h5 class="pt-2">Weapons</h5>
 
 					<p>
 						Weapons are not permitted in the office under any circumstances, with the exception of small pocket knives
@@ -57,18 +68,10 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</main>
 
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-86405958-2');
-		</script>
+		<footer class="container">
+			<shared-footer></shared-footer>
+		</footer>
 	</body>
 </html>

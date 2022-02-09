@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86405958-2');
+		</script>
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="icon" href="../images/favicon.png" />
 
 		<title>Health - Employee Handbook</title>
 
-		<!-- Custom styles for this template -->
 		<link href="../css/main.css" rel="stylesheet" />
+		<script src="../components/footer.js" type="text/javascript" defer></script>
 	</head>
 
-	<body>
-		<div class="container">
-			<div class="header clearfix">
-				<h3 class="text-muted">Employee Handbook</h3>
-			</div>
+	<body class="py-4">
+		<header class="container">
+			<h3 class="text-muted mb-2">Sparksuite’s Employee Handbook</h3>
+		</header>
 
-			<div class="row content">
-				<div class="col-lg-12">
-					<a href="../index.html" class="back_to_home">&larr; Back to home</a>
+		<main class="container">
+			<div class="row">
+				<div class="col">
+					<a href="../index.html" class="d-block pb-4">&larr; Back to home</a>
 
-					<h2>Health</h2>
+					<h2 class="display-6">Health</h2>
 
 					<p>
 						We offer a variety of employer-sponsored health plans with company contributions. We also offer vision and
@@ -29,7 +40,7 @@
 						seamless by our payroll provider.
 					</p>
 
-					<h5>Health plans</h5>
+					<h5 class="pt-2">Health plans</h5>
 
 					<p>
 						The following plans from
@@ -101,7 +112,7 @@
 						</li>
 					</ul>
 
-					<h5>Dental and vision plans</h5>
+					<h5 class="pt-2">Dental and vision plans</h5>
 
 					<p>The following plans from <strong>Beam</strong> are available for 2022:</p>
 
@@ -127,7 +138,7 @@
 						</li>
 					</ul>
 
-					<h5>HSAs and FSAs</h5>
+					<h5 class="pt-2">HSAs and FSAs</h5>
 
 					<p>
 						We offer HSAs and FSAs as an optional way to reduce your taxes for many types of health expenses. FSAs can
@@ -135,7 +146,7 @@
 						requirements for a “High Deductible Health Plan” (HDHP).
 					</p>
 
-					<h5>Company contribution</h5>
+					<h5 class="pt-2">Company contribution</h5>
 
 					<p>
 						Our company will contribute 50% of the cost of the employee’s base health plan premium, toward whichever of
@@ -187,7 +198,7 @@
 						>
 					</p>
 
-					<h5>Enrollment</h5>
+					<h5 class="pt-2">Enrollment</h5>
 
 					<p>
 						For new team members, coverage can typically begin as early as the next 1st of the month following your hire
@@ -202,7 +213,7 @@
 						enrollment period.
 					</p>
 
-					<h5>Premium pricing</h5>
+					<h5 class="pt-2">Premium pricing</h5>
 
 					<p>
 						Our plans use ”member-level” premiums, where each covered person’s premium is based on their age and ZIP
@@ -212,7 +223,7 @@
 						mid-sized employers.
 					</p>
 
-					<h5>FAQs</h5>
+					<h5 class="pt-2">FAQs</h5>
 
 					<ul>
 						<li>
@@ -236,18 +247,10 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</main>
 
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-86405958-2');
-		</script>
+		<footer class="container">
+			<shared-footer></shared-footer>
+		</footer>
 	</body>
 </html>
