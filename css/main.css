@@ -3,7 +3,7 @@
 
 /* Keep containers relatively narrow on large screens */
 .container {
-	max-width: 46rem;
+	max-width: 48rem;
 }
 
 /* Prevent hello from being tied to view width */
