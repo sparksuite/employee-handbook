@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-86405958-2');
+		</script>
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<link rel="icon" href="../images/favicon.png" />
 
 		<title>Paid Time Off - Employee Handbook</title>
 
-		<!-- Custom styles for this template -->
 		<link href="../css/main.css" rel="stylesheet" />
+		<script src="../components/footer.js" type="text/javascript" defer></script>
 	</head>
 
-	<body>
-		<div class="container">
-			<div class="header clearfix">
-				<h3 class="text-muted">Employee Handbook</h3>
-			</div>
+	<body class="py-4">
+		<header class="container">
+			<h3 class="text-muted mb-2">Sparksuite’s Employee Handbook</h3>
+		</header>
 
-			<div class="row content">
-				<div class="col-lg-12">
-					<a href="../index.html" class="back_to_home">&larr; Back to home</a>
+		<main class="container">
+			<div class="row">
+				<div class="col">
+					<a href="../index.html" class="d-block pb-4">&larr; Back to home</a>
 
-					<h2>Paid time off</h2>
+					<h2 class="display-6">Paid time off</h2>
 
 					<p>
 						We want our team to be happy and refreshed, and to maintain a healthy work-life balance, so every employee
@@ -30,7 +41,7 @@
 						holidays.
 					</p>
 
-					<h5>How it works</h5>
+					<h5 class="pt-2">How it works</h5>
 
 					<p>
 						You’ll earn a specific amount of paid time off each year based on how long you’ve been with our company, as
@@ -68,7 +79,7 @@
 						pay periods per year to determine the amount you earn each pay period.
 					</p>
 
-					<blockquote>
+					<blockquote class="bg-light border-start border-3 px-3 py-2">
 						For example, let’s say you’re currently earning three weeks of paid time off each year (120 hours). Assuming
 						a semi-monthly pay period, that equates to 5 hours of paid time off each pay period.
 					</blockquote>
@@ -84,7 +95,7 @@
 						will begin with three days of paid time off.
 					</p>
 
-					<h5>How to use</h5>
+					<h5 class="pt-2">How to use</h5>
 
 					<p>
 						Paid time off can be used by notifying the person you report to as early as reasonably possible and gaining
@@ -98,18 +109,10 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</main>
 
-		<!-- Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86405958-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-86405958-2');
-		</script>
+		<footer class="container">
+			<shared-footer></shared-footer>
+		</footer>
 	</body>
 </html>
