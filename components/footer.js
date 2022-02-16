@@ -49,7 +49,7 @@ class SharedFooter extends HTMLElement {
 				<div class="w-100 d-flex d-sm-none"></div>
 
 				<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-					<li class="ms-3">
+					<li>
 						<a class="text-muted" href="https://twitter.com/SparksuiteHQ" target="_blank" rel="noopener noreferrer">
 							<svg class="bi" width="24" height="24" fill="currentColor"><use xlink:href="#twitter" /></svg>
 						</a>
