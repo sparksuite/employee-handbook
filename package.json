@@ -4,7 +4,7 @@
 		"test": "echo 'This project does not contain automated tests'",
 		"lint": "prettier --check '**/*.{json,html,yml,css,js}'",
 		"format": "prettier --write '**/*.{json,html,yml,css,js}'",
-		"clean": "git clean -X -d --force && find . -type d -empty -delete"
+		"clean": "for attempt in 1 2 3 4 5 6 7 8 9 10; do if errors=$(LC_ALL=C git clean -X -d --force 2>&1 >/dev/null); then [ -z \"$errors\" ] || printf '%s\\n' \"$errors\" >&2; break; fi; if printf '%s\\n' \"$errors\" | grep -qv ': Directory not empty$' || [ $attempt -eq 10 ]; then printf '%s\\n' \"$errors\" >&2; exit 1; fi; done && find . -type d -empty -not -path '*/.git/*' -delete"
 	},
 	"devDependencies": {
 		"prettier": "~2.5.1"
